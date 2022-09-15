@@ -21,6 +21,8 @@ for (let i = 1; i <= 100; i++) {
         console.log(i, "BUZZ");
     } else if (i % 3 == 0) {        
         console.log(i, "FIZZ");
+    } else {
+        console.log(i);
     }
 }
 console.log(`There are ${fb} FIZZBUZZes`);
